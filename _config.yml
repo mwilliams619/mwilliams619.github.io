@@ -1,0 +1,7 @@
+exclude:
+     - node_modules
+     - package.json
+     - package-lock.json
+     - webpack.config.js
+     - .babelrc
+     - src
