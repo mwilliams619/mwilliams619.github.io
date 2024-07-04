@@ -4,22 +4,26 @@ import Navbar from './Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Press from './pages/Press'
 import Contact from './pages/Contact';
 import Footer from './Footer';
+import './App.css'
 
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-        <Footer />
+        <div className='app-body'>
+            <Navbar />
+            <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/press" element={<Press/>} />
+            </Routes>
+        
+            <Footer />
+        </div>
     </Router>
   );
 }

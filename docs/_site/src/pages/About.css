@@ -1,0 +1,24 @@
+.about-me-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    /* background-color: #f8f8f8; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .about-me-heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-content {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .about-me-content p {
+    margin-bottom: 16px;
+  }

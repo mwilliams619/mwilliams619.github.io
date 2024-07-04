@@ -1,0 +1,10 @@
+.song-visualizer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .visualizer-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+  }
