@@ -1,9 +1,12 @@
 import React from "react";
 import './Footer.css';
 import { FaLinkedinIn, FaEnvelope, FaGithub } from 'react-icons/fa';
+import { useBgColor } from './functions/useBgColor'
 
 const Footer = () => {
+  useBgColor('rgb(36, 46, 52)');
   return (
+    
     <footer className="footer">
       <div className="footer-divider"></div>
       <div className="footer-container">
@@ -33,16 +36,7 @@ const Footer = () => {
             <FaGithub />
           </a>
         </div>
-        <div className="footer-resume">
-          <a
-            href="/public/assets/MW_resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-          >
-            Download Resume
-          </a>
-        </div>
+       
       </div>
     </footer>
   );

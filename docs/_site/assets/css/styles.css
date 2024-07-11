@@ -1,6 +1,6 @@
-/*!************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/Navbar.css ***!
-  \************************************************************************************************************/
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/Navbar.css ***!
+  \****************************************************************************************************************************************/
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -9,9 +9,21 @@
     margin: 0 auto;
   }
   
+  .navbar-header {
+    display: flex;
+    flex-direction: column;
+  }
+
   .navbar-title {
     font-size: 1.875rem;
     font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .navbar-subtitle {
+    font-size: 1rem;
+    margin-top: 5px;
   }
   
   .nav-list {
@@ -23,7 +35,7 @@
   
   .nav-item {
     margin-left: 20px;
-    color: #333;
+    color: #B5BEC6;
     text-decoration: none;
     font-size: 1rem;
   }
@@ -36,24 +48,23 @@
     height: 1px;
     background-color: #ccc;
   }
-/*!****************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Home.css ***!
-  \****************************************************************************************************************/
+/*!********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Home.css ***!
+  \********************************************************************************************************************************************/
 .no-bullet {
     list-style-type: none;
-    padding-left: 30;
+    padding-left: 0;
     margin: 10;
 }
 
-/* body {
-    background-color: rgb(200, 160, 78);
-    margin: 0;
-    padding: 0;
-  } */
+.bio-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-/*!*****************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/About.css ***!
-  \*****************************************************************************************************************/
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/About.css ***!
+  \*********************************************************************************************************************************************/
 .about-me-container {
     max-width: 800px;
     margin: 0 auto;
@@ -79,9 +90,9 @@
     margin-bottom: 16px;
   }
 
-/*!********************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Projects.css ***!
-  \********************************************************************************************************************/
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Projects.css ***!
+  \************************************************************************************************************************************************/
 .song-visualizer {
     text-align: center;
     margin-top: 20px;
@@ -93,20 +104,52 @@
     display: inline-block;
   }
 
-/*!*****************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Press.css ***!
-  \*****************************************************************************************************************/
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Press.css ***!
+  \*********************************************************************************************************************************************/
 .press{
     margin-left: 34%;
     margin-top: 20px;
     justify-content: center;
 }
 
-/*!************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/Footer.css ***!
-  \************************************************************************************************************/
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/CV.css ***!
+  \******************************************************************************************************************************************/
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+
+.tech-icons {
+    border: 1.7px solid rgba(200, 137, 230, .637) !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137) !important;
+    display: table !important;
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 10px !important;
+    text-align: center !important;
+    transition: all .4s ease 0s !important;
+    vertical-align: middle !important;
+}
+
+.tech-icons:hover {
+    transform: scale(1.1);
+}
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/Footer.css ***!
+  \****************************************************************************************************************************************/
 .footer {
     position: fixed;
+    z-index: 100;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -130,7 +173,7 @@
   }
   
   .footer-icons a {
-    color: #333;
+    color: #B5BEC6;
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s ease;
@@ -167,7 +210,10 @@
     height: 1px;
     background-color: #ccc;
   }
-/*!*********************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/App.css ***!
-  \*********************************************************************************************************/
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/App.css ***!
+  \*************************************************************************************************************************************/
+body, html {
+    font-family: 'EB Garamond', serif;
+  }
 

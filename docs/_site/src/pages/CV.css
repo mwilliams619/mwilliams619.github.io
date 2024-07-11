@@ -1,0 +1,28 @@
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+
+.tech-icons {
+    border: 1.7px solid rgba(200, 137, 230, .637) !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137) !important;
+    display: table !important;
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 10px !important;
+    text-align: center !important;
+    transition: all .4s ease 0s !important;
+    vertical-align: middle !important;
+}
+
+.tech-icons:hover {
+    transform: scale(1.1);
+}

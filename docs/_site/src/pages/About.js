@@ -3,7 +3,7 @@ import './About.css'
 import { useBgColor } from '../functions/useBgColor'
 
 function About() {
-    useBgColor('rgb(160, 160, 78)');
+    useBgColor('rgb(36, 46, 52)');
     return (
         <div className="about-me-container">
           <h2 className="about-me-heading">About Me</h2>

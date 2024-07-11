@@ -1,5 +1,6 @@
 .footer {
     position: fixed;
+    z-index: 100;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -23,7 +24,7 @@
   }
   
   .footer-icons a {
-    color: #333;
+    color: #B5BEC6;
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s ease;

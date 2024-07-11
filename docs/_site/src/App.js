@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Press from './pages/Press'
-import Contact from './pages/Contact';
+import CV from './pages/CV';
 import Footer from './Footer';
 import './App.css'
 
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/CV" element={<CV />} />
             <Route path="/press" element={<Press/>} />
             </Routes>
         

@@ -3,7 +3,7 @@ import './Press.css';
 import { useBgColor } from '../functions/useBgColor'
 
 const Press = () => {
-    useBgColor('rgb(120, 160, 78)')
+    useBgColor('rgb(36, 46, 52)')
   return (
     <div className="press">
         <iframe 

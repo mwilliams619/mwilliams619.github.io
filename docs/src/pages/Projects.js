@@ -5,7 +5,7 @@ import { useBgColor } from '../functions/useBgColor'
 
 function Projects() {
     const svgRef = useRef();
-    useBgColor('rgb(40, 40, 160)');
+    useBgColor('rgb(36, 46, 52)');
   
     useEffect(() => {
       const width = 400;
