@@ -1,12 +1,11 @@
 .footer {
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color: #f8f8f8; */
-    padding: 20px 0;
-    /* box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: rgb(36,46,52);
+    padding-bottom: 20px;
   }
   
   .footer-container {
