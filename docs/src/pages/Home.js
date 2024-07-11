@@ -30,7 +30,7 @@ function Home() {
         Passionate about 🧑🏽‍💻 developing software tools to empower scientists and commercial stakeholders to efficiently reach their goals and 📚 continously learning to keep up with the technological innovations occuring around us.
     </p>
     <div>
-    <ProteinViewer pdb='6tmf' chain='' seq='' />
+    {/* <ProteinViewer pdb='6tmf' chain='' seq='' /> */}
     </div>
     </div>
   );
