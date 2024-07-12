@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "serve": "bundle exec jekyll serve",
-    "start": "npm-run-all --parallel watch serve"
+    "start": "npm-run-all --parallel watch serve",
+    "deploy": "npm run build && cp -R dist/. _site/"
   },
   "keywords": [],
   "author": "",

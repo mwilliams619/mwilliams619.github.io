@@ -8,11 +8,11 @@ function Home() {
   return (
     <div className="bio-container">
     
-    <p>
+    <h3>
         I aim to drive innovation in <strong>biotech</strong> 🧬 using <strong>computational biology</strong>
-    </p>
+    </h3>
     <p>
-        I'm a recent <strong>Northwestern University Biotech MS grad</strong>, where I:
+        As a recent <strong>Northwestern University Biotech MS grad</strong>, I:
     </p>
     <ul className='no-bullet'>
         <li>
@@ -22,12 +22,12 @@ function Home() {
             💻 Built <strong>bioinformatics</strong> tools to help synbio startups turn ideas into reality.
         </li>
         <li>
-            🎓 Studied <strong>biology, computer science, and entrepreneurship</strong> - because in biotech, you've got to wear many hats!
+            🎓 Studied <strong>biology, machine learning, and entrepreneurship</strong> - because in biotech, you've got to wear many hats!
         </li>
     </ul>
 
     <p>
-        Passionate about 🧑🏽‍💻 developing software tools to empower scientists and commercial stakeholders to efficiently reach their goals and 📚 continously learning to keep up with the technological innovations occuring around us.
+        I am passionate about 🧑🏽‍💻 developing software tools to empower scientists and commercial stakeholders to efficiently reach their goals and 📚 continously learning to keep up with the technological innovations occuring around us.
     </p>
     <div>
     {/* <ProteinViewer pdb='6tmf' chain='' seq='' /> */}

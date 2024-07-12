@@ -5,3 +5,8 @@ exclude:
      - webpack.config.js
      - .babelrc
      - src
+
+
+# Serve static files
+include:
+  - dist

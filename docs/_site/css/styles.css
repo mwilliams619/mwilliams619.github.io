@@ -1,0 +1,251 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .navbar-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-title {
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .navbar-subtitle {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    color: #B5BEC6;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-item:hover {
+    color: #fff;
+  }
+  .navbar-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+.no-bullet {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 10;
+}
+
+.bio-container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+.about-me-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    /* background-color: #f8f8f8; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .about-me-heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-content {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .about-me-content p {
+    margin-bottom: 16px;
+  }
+
+.project-body {
+    text-align: left;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-body h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.project-body ol {
+  display: inline-block;
+  text-align: left;
+}
+.project-body ul {
+  display: inline-block;
+  text-align: left;
+}
+  
+  .visualizer-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 30%;
+  }
+
+.press{
+    margin-left: 34%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+
+.tech-icons {
+    border: 1.7px solid rgba(200, 137, 230, .637) !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137) !important;
+    display: table !important;
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 10px !important;
+    text-align: center !important;
+    transition: all .4s ease 0s !important;
+    vertical-align: middle !important;
+}
+
+.tech-icons:hover {
+    transform: scale(1.1);
+}
+
+.resume {
+    text-align: center;
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+.icon-title {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -45px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .icon-wrapper:hover .icon-title {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.footer {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(36,46,52);
+    padding-bottom: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .footer-icons a {
+    color: #B5BEC6;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    color: #666;
+  }
+  
+  .footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .footer-resume a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    justify-content: right;
+  }
+  .footer-resume {
+    margin-left: 78%;
+  }
+  
+  .footer-resume a:hover {
+    color: #666;
+  }
+
+  .footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+body, html {
+    font-family: 'EB Garamond', serif;
+  }
+a {
+    color: #B5BEC6;
+}
+.app-body {
+    padding-bottom: 100px;
+}

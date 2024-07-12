@@ -1,8 +1,9 @@
 body, html {
     font-family: 'EB Garamond', serif;
+    color: #e2e4e6;
   }
 a {
-    color: #B5BEC6;
+    color: #e2e4e6;
 }
 .app-body {
     padding-bottom: 100px;

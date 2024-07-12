@@ -1,10 +1,30 @@
-.song-visualizer {
+.project-body {
+    text-align: left;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+
+  }
+
+  .project-body h2 {
     text-align: center;
     margin-top: 20px;
   }
+
+.project-body ol {
+  display: inline-block;
+  text-align: left;
+}
+.project-body ul {
+  display: inline-block;
+  text-align: left;
+}
   
   .visualizer-container {
+    text-align: center;
     border: 1px solid #ccc;
     padding: 20px;
     display: inline-block;
+    margin-left: 30%;
   }

@@ -39,6 +39,11 @@
     text-decoration: none;
     font-size: 1rem;
   }
+
+  .nav-item.active {
+    border-bottom: 2px solid #fff; /* Underline the active link */
+    color: #fff; /* Change the color of the active link */
+  }
   
   .nav-item:hover {
     color: #fff;
@@ -53,12 +58,16 @@
   \********************************************************************************************************************************************/
 .no-bullet {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 15px;
     margin: 10;
 }
 
+.no-bullet li {
+    margin-top: 10px;
+}
+
 .bio-container {
-    max-width: 800px;
+    max-width: 80%;
     margin: auto;
     margin-top: 100px;
     font-size: x-large;
@@ -86,6 +95,8 @@
   .about-me-content {
     line-height: 1.6;
     text-align: justify;
+    font-size: large;
+
   }
   
   .about-me-content p {
@@ -95,15 +106,35 @@
 /*!************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Projects.css ***!
   \************************************************************************************************************************************************/
-.song-visualizer {
+.project-body {
+    text-align: left;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+
+  }
+
+  .project-body h2 {
     text-align: center;
     margin-top: 20px;
   }
+
+.project-body ol {
+  display: inline-block;
+  text-align: left;
+}
+.project-body ul {
+  display: inline-block;
+  text-align: left;
+}
   
   .visualizer-container {
+    text-align: center;
     border: 1px solid #ccc;
     padding: 20px;
     display: inline-block;
+    margin-left: 30%;
   }
 
 /*!*********************************************************************************************************************************************!*\
@@ -146,6 +177,41 @@
 .tech-icons:hover {
     transform: scale(1.1);
 }
+
+.resume {
+    text-align: center;
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+.icon-title {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -45px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .icon-wrapper:hover .icon-title {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .summary {
+    font-size: large;
+  }
 /*!****************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/Footer.css ***!
   \****************************************************************************************************************************************/
@@ -216,9 +282,10 @@
   \*************************************************************************************************************************************/
 body, html {
     font-family: 'EB Garamond', serif;
+    color: #e2e4e6;
   }
 a {
-    color: #B5BEC6;
+    color: #e2e4e6;
 }
 .app-body {
     padding-bottom: 100px;

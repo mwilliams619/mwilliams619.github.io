@@ -5,7 +5,9 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'assets', 'js'),
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
+    
   },
   module: {
     rules: [
@@ -39,5 +41,7 @@ module.exports = {
   ],
   devServer: {
   historyApiFallback: true,
+  contentBase: path.join(__dirname, 'dist'),
+  compress: true,
 }
 };
