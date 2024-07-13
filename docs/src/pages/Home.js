@@ -5,8 +5,9 @@ import { useBgColor } from '../functions/useBgColor'
 function Home() {
   useBgColor('rgb(36,46,52)');
   return (
-    <div className="bio-container">
-    
+    <div className="bio-container" style={{ display: 'flex', flexDirection: 'row' }}>
+
+    <div className='words' style= {{flexGrow: '9'}}>
     <h3>
         I aim to drive innovation in <strong>biotech</strong> 🧬 using <strong>computational biology</strong>
     </h3>
@@ -29,7 +30,9 @@ function Home() {
     <p>
         I am passionate about 🧑🏽‍💻 developing software tools to empower scientists and commercial stakeholders to efficiently reach their goals and 📚 continously learning to keep up with the technological innovations occuring around us.
     </p>
-    <div>
+    </div>
+    <div className='pic' style= {{flexGrow: '1'}}> 
+    <img src="/public/assets/linkedin profile.png" alt="Profile" width="250" height="250" className="navbar-profile" />
     </div>
     </div>
   );
