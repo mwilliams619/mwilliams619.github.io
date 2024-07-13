@@ -111,7 +111,7 @@ function Projects() {
     return (
       <div className='project-body'>
       <div className="song-visualizer">
-        <h2><a href='https://github.com/mwilliams619/Anther/'>Anther</a>: Song Similarity Visualization</h2>
+        <h2><a href='https://github.com/mwilliams619/Anther/' target="_blank" rel="noopener noreferrer">Anther</a>: Song Similarity Visualization</h2>
         <div className="visualizer-container">
           <svg ref={svgRef}></svg>
         </div>
@@ -137,7 +137,7 @@ function Projects() {
         </ol>
       </div>
         <div className='rag-llm'>
-        <h2> <a href='https://github.com/mwilliams619/PDF-query'>Retrieval-Augmented Generation Agent</a></h2>
+        <h2> <a href='https://github.com/mwilliams619/PDF-query' target="_blank" rel="noopener noreferrer">Retrieval-Augmented Generation Agent</a></h2>
         <h3>Project Overview</h3>
     <p>I developed this agent with the objective of enhancing information sharing between scientific and commercial teams. The initial use case focused on the ability to swiftly summarize and extract information from academic literature that scientists were sharing. Additionally, it was trained with writing samples from the company, significantly boosting the efficiency of drafting proposals and copy.</p>
     

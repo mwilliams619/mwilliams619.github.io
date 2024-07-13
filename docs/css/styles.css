@@ -1,3 +1,6 @@
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/Navbar.css ***!
+  \****************************************************************************************************************************************/
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -36,6 +39,11 @@
     text-decoration: none;
     font-size: 1rem;
   }
+
+  .nav-item.active {
+    border-bottom: 2px solid #fff; /* Underline the active link */
+    color: #fff; /* Change the color of the active link */
+  }
   
   .nav-item:hover {
     color: #fff;
@@ -45,19 +53,29 @@
     height: 1px;
     background-color: #ccc;
   }
+/*!********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Home.css ***!
+  \********************************************************************************************************************************************/
 .no-bullet {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 15px;
     margin: 10;
 }
 
+.no-bullet li {
+    margin-top: 10px;
+}
+
 .bio-container {
-    max-width: 800px;
+    max-width: 80%;
     margin: auto;
     margin-top: 100px;
     font-size: x-large;
 }
 
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/About.css ***!
+  \*********************************************************************************************************************************************/
 .about-me-container {
     max-width: 800px;
     margin: 0 auto;
@@ -77,17 +95,24 @@
   .about-me-content {
     line-height: 1.6;
     text-align: justify;
+    font-size: large;
+
   }
   
   .about-me-content p {
     margin-bottom: 16px;
   }
 
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Projects.css ***!
+  \************************************************************************************************************************************************/
 .project-body {
     text-align: left;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-size: large;
+
   }
 
   .project-body h2 {
@@ -112,12 +137,18 @@
     margin-left: 30%;
   }
 
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Press.css ***!
+  \*********************************************************************************************************************************************/
 .press{
     margin-left: 34%;
     margin-top: 20px;
     justify-content: center;
 }
 
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/CV.css ***!
+  \******************************************************************************************************************************************/
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -178,6 +209,12 @@
     opacity: 1;
   }
 
+  .summary {
+    font-size: large;
+  }
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/Footer.css ***!
+  \****************************************************************************************************************************************/
 .footer {
     position: fixed;
     z-index: 1000;
@@ -240,11 +277,15 @@
     height: 1px;
     background-color: #ccc;
   }
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/App.css ***!
+  \*************************************************************************************************************************************/
 body, html {
     font-family: 'EB Garamond', serif;
+    color: #e2e4e6;
   }
 a {
-    color: #B5BEC6;
+    color: #e2e4e6;
 }
 .app-body {
     padding-bottom: 100px;

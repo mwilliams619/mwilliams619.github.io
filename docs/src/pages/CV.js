@@ -8,6 +8,7 @@ function CV() {
     <div>
     <div className="summary">
       <h2>Summary</h2>
+            
             <p>
               I am a computational biologist and recent graduate of the Master's in Biotechnology Program at Northwestern University, with graduate minors in Entrepreneurship and Synthetic Biology. My interests lie at the intersection of biology and computer science, particularly in the field of machine learning-driven protein engineering.
             </p>
@@ -21,7 +22,7 @@ function CV() {
               I am passionate about continous learning and always excited to learn new technologies and apply them to practical needs.
             </p>
             <p>
-              See below and check out my <a href="https://www.linkedin.com/in/mattwilliams19">Linkedin</a> for more information
+              See below and check out my <a href="https://www.linkedin.com/in/mattwilliams19" target="_blank" rel="noopener noreferrer">Linkedin</a> for more information
             </p>
     </div>
     <div>
@@ -211,7 +212,7 @@ function CV() {
       >
         <p>
           Your browser doesn't support pdf viewer.
-          <a href="/public/assets/MW_resume.pdf">Download the PDF</a> instead.
+          <a href="/public/assets/MW_resume.pdf" target="_blank" rel="noopener noreferrer">Download the PDF</a> instead.
         </p>
       </iframe>
     </div>
