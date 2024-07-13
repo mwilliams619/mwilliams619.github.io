@@ -7,8 +7,3 @@ exclude:
      - src
 
 
-# Serve static files
-include:
-  - dist
-
-permalink: /:title/

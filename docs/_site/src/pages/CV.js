@@ -24,10 +24,9 @@ function CV() {
             <p>
               See below and check out my <a href="https://www.linkedin.com/in/mattwilliams19" target="_blank" rel="noopener noreferrer">Linkedin</a> for more information
             </p>
+            <h2>My Toolkit</h2>
     </div>
-    <div>
-      <h2>My Toolkit</h2>
-    </div>
+    
       <div className="row" style={{justifyContent: 'center', paddingBottom: '50px'}}>
       
       <div className="icon-wrapper">
