@@ -110,6 +110,14 @@ function Projects() {
   
     return (
       <div className='project-body'>
+      <div className='cd20-binders'>
+      <h2><a href='https://github.com/ccalia/Bits_to_Binders_2024' target="_blank" rel="noopener noreferrer">Designing De Novo Protein Binders to Human CD20</a></h2>
+      <h3>Project Overview</h3>
+      <p>In this project I worked with a team to design CAR T-cell protein binders to human CD20. This approach holds promise for medical applications such as therapies for B-cell malignancies or autoimmune diseases. CD20 presents a challenging target for de novo binder design due to its extracellular loops providing relatively small surfaces for binding and containing many hydrophilic residues. Additionally, the exposed regions may have some degree of flexibility.</p>
+    
+      <h3>Technical Implementation</h3>
+      <p>We constructed a multi-tiered approach to maximize the success rate of CD20 binders generated with state-of-the-art deep learning tools. Using RFdiffusion's motif scaffolding functionality, we created a minimal target structure and generated over 25,000 80-residue binder backbones. We filtered these backbones using Biopython to ensure contact with specific residues and avoid low-quality designs. The filtered backbones were then used with the ColabDesign framework to generate sequences, which were screened with AlphaFold2. We prioritized further exploration of promising candidates and compiled 1,323 binder sequences, ultimately submitting the highest ranking 500 sequences.</p>
+      </div>
       <div className="song-visualizer">
         <h2><a href='https://github.com/mwilliams619/Anther/' target="_blank" rel="noopener noreferrer">Anther</a>: Song Similarity Visualization</h2>
         <div className="visualizer-container">
